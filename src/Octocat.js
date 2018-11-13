@@ -6,12 +6,12 @@ class Octocat extends Component {
       <div class="outer-image">
         <img class="image-area" src={this.props.image} />
         <section class="caption">
-          <p>#3</p>
+          <p>{this.props.number}</p>
           <div class="name-pic">
             <p>
-              the <em>Octobi Wan Catnobi</em> by
+              the <em>{this.props.name}</em> by
             </p>
-            <img src="https://github.com/cameronmcefee.png" />
+            <img src={this.props.creatorImage} />
           </div>
         </section>
       </div>
