@@ -102,6 +102,10 @@ em {
   margin-left: 10px;
 }
 
+.name-pic img:hover {
+  cursor: pointer;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -121,6 +125,10 @@ footer {
   font-size: 12px;
   color: #4183c4;
   margin: 12px 12px 12px 0;
+}
+
+.bottom-links p:hover {
+  cursor: pointer;
 }
 
 i {
